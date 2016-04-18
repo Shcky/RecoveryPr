@@ -1,0 +1,585 @@
+/*GENERAL*/
+
+body {
+    font: 400 15px/1.8 Lato, sans-serif;
+    color: #777;
+}
+
+/* Overwrite default styles of h3 and h4 */
+h3, h4 {
+    margin: 10px 0 30px 0;
+    letter-spacing: 10px; 
+    font-size: 20px;
+    color: #111;
+}
+
+/* Remove rounded borders on input fields */
+.form-control {
+    border-radius: 0;
+}
+
+/* Disable the ability to resize textareas */
+textarea {
+    resize: none;
+}
+
+
+
+
+/* Navigace*/
+.navbar {
+    background: #494949;
+    box-shadow: 0px 0px 8px 0px;
+    font-family: Montserrat, sans-serif;
+}
+
+.navbar-brand {
+    width: 35%;
+    
+    padding-bottom: 0.7%;
+}
+
+
+#blbost{
+    margin: 0px;
+}
+
+
+/*Leve horni logo + napis*/
+#logo, #mark{
+    color: white;
+    margin: 0px;
+    display: inline;
+}
+#logo {
+   /* width: 2%;*/
+    float: left;
+    margin-top: 0.5%;
+}
+
+#mark {
+     padding-top: 0.8%; 
+    
+}
+
+
+
+.nav {
+    margin-top: 1%;
+}
+
+
+
+.navbar li:hover  {
+ /*border-bottom: 1px solid white;*/
+    background: #DE8A35;
+}
+
+
+/* Prvni oddil */
+.HOME {
+   
+    background: #DE8A35;
+    margin-top: 3%;     
+    width: 100%;
+    height: 320px;
+
+}
+.First_part {
+    padding-top: 5%;    
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
+.First_part h1 {
+    color: white;
+     margin-top: 0%;
+     margin-bottom: 0.1%;
+}
+
+/*----tlacitko - lear More----*/
+.btm {
+  display: inline-block;
+  float: right;
+  margin-right: 28%; 
+  border-radius: 4px;
+  background-color: #255d68;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 120%;
+  padding: 15px;
+  transition: all 0.5s;
+  cursor: pointer;
+  border-radius: 19px;
+  border: none;
+}
+
+.btm span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.btm span:after {
+  content: '»';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.btm:hover span {
+  padding-right: 25px;
+  color: white;
+}
+
+.btm:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+/*-----Konec tlacitka-----*/
+
+/*---------Classes -------*/
+.CLASSES {
+       margin-top: 4%;
+       margin-bottom: 1%;
+       
+}
+
+.classes_inner {
+  
+    padding-right: 15%;
+    padding-left: 15%;
+    background: #494949 /*, #DE8A35*/;
+    padding-bottom: 2%; 
+}
+
+
+.classes_inner h3 {
+    color: white;
+    padding-top: 2%;
+    font-family: inherit;
+}
+
+#h4 {
+    color: white;
+    }
+
+
+.thumbnail img {
+    width: 100% ;
+    height: 267px;
+    margin-bottom: 2%;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+
+
+
+.thumbnail {
+    padding: 0 0 15px 0;
+    border: none;
+    border-radius: 0;
+}
+
+.thumbnail p {
+    margin-top: 15px;
+    color: #555;
+}
+
+
+.btn {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #f1f1f1;
+    border-radius: 0;
+    transition: .2s;
+}
+
+
+.btn:hover, .btn:focus {
+    border: 1px solid #333;
+    background-color: #fff;
+    color: #000;
+}
+ 
+ 
+ 
+ .modal-header, h5, .close {
+    background-color: #333;
+    color: #fff !important;
+    text-align: center;
+    font-size: 30px;
+}
+
+.modal-header, .modal-body {
+    padding: 40px 50px;
+}
+ 
+ 
+    
+
+/*------END ------*/
+
+/*----About us-----*/
+.ABOUT_US {
+    width: 100%;
+    margin-top: 4%;
+    margin-bottom: 2%;
+ 
+}
+.about_inner {
+    margin-right: 15%;
+    margin-left: 15%;
+    padding-top: 2%;
+    /*border-top: 1px solid #7895A3;*/
+}
+
+.about_text {
+    margin-top: 3%;
+    
+}
+/*----About us - END-----*/
+
+/*----Carousel-------*/
+.CAROUSEL {
+    margin-top: 3%;
+    height: 250px;
+    margin-bottom: 3%;
+}
+
+.CAROUSEL h2 {
+    margin-right: 15%;
+    margin-left: 15%;
+    border-top: 1px solid #7895A3;
+    padding-top: 2%; 
+}
+
+.carousel-control.right, .carousel-control.left {
+    background-image: none;
+    color: #4A7E88;
+}
+
+.carousel-indicators li {
+    border-color: #4A7E88;
+}
+
+.carousel-indicators li.active {
+    background-color: #4A7E88;
+}
+
+.item h4 {
+    font-size: 19px;
+    line-height: 1.375em;
+    font-weight: 400;
+    font-style: italic;
+    margin: 70px 0;
+}
+
+.item span {
+    font-style: normal;
+}
+
+.carousel-inner {
+    margin-bottom: 3%;
+    padding-bottom: 3%;
+    
+}
+
+
+/*-----Carousel END---*/
+
+
+
+/*------SOCIAL_ICONS-----*/
+.SOCIAL_ICONS {
+    position: fixed;
+    top: 35%;
+    text-decoration: none;
+    width: 100px;
+    z-index: 2222;
+    display: block;
+    list-style: none;
+    margin: 0px;
+    width: 45px;
+    background: white;
+    border-radius: 0px 19px 19px 0px;
+  /*  border: 2px solid #DE8A35;*/
+    border-left: 0px;
+}
+
+.SOCIAL {
+    margin-top: 10px;
+    margin-bottom: 7px;
+    padding-left: 10px;
+    
+}
+
+.SOCIAL li {
+       list-style: none;
+       width: 20%;
+       margin: 0px;
+}
+
+#SOCIAL {
+  font-size: 33px;
+
+}
+
+#SOCIAL:hover {
+  font-size: 36px;
+  background: white;
+  text-decoration: none;
+}
+/*------SOCIAL_ICONS - END-----*/
+
+
+/*-----Google map----*/
+
+#googleMap {
+height:400px;
+width:100%;
+}
+
+/*-------- CONTACT ------*/
+.col-sm-5 {
+    padding-left: 4%;
+}
+
+.col-sm-7 {
+    padding-right: 4%;
+}
+
+#SEND {
+    margin-right: 0px;
+}
+
+
+
+/*----Footer------*/
+
+
+footer {
+    background-color: #2d2d30;
+    color: #f5f5f5;
+    padding: 32px;
+}
+
+footer a {
+    color: #0066ff;
+}
+
+footer a:hover {
+    color: #777;
+    text-decoration: none;
+}
+
+
+
+/*---------Responsoive ------*/
+@media (max-width: 1400px) {
+    .thumbnail img  {
+        width: 100%;
+        height: 230px;
+    }
+}
+
+@media (max-width: 1100px) {
+    .thumbnail img  {
+        width: 100%;
+        height: 200px;
+    }
+    .SOCIAL_ICONS {
+      display: inline-block;
+      top:0%;
+      border-radius: 0px;
+      background: transparent;
+      width: 18%;
+      height: 50.43px;
+      margin-left: 36%;
+      font-size: 20px;
+    }
+    .SOCIAL{ padding-left: 0px;  }
+    #SOCIAL{
+    color:white;
+    font-size: 25px;
+    }
+    .SOCIAL li {
+      display: inline-block;
+      color:white;
+      padding-left: 4%;
+      margin-left: 2%;
+     
+    }
+    #SOCIAL:hover{
+        background: #494949;
+        opacity: 0.8;
+        font-size: 25px;
+        color:#DE8A35;
+    }
+    
+    .navbar-brand {
+        padding-right: 0px; 
+    }
+    
+    
+    
+    
+}
+
+@media (max-width: 768px) {
+    .thumbnail img  {
+        width: 100%;
+        height: 150px;        
+    }
+       
+    .HOME {
+        margin-top: 6%;
+    }
+    
+    #mark{
+      display: none;
+      
+    }
+     #SOCIAL { font-size: 20px;} 
+}
+
+@media (max-width: 767px) {
+    .SOCIAL_ICONS {
+      display: inline-block;
+      top:0%;
+      border-radius: 0px;
+      background: transparent;
+      width: 28%;
+      height: 50.43px;
+      margin-left: 0px;
+      
+    }
+        #SOCIAL:hover{
+        background: #494949;
+        opacity: 0.8;
+        font-size: 23px;
+        color:#DE8A35;
+    }
+    
+    
+    
+    
+     #SOCIAL { font-size: 23px;}
+    .container-fluid { margin-bottom: 2%;}
+    .HOME { height: 305px; margin-top:9.01%;}
+    .First_part h1 {font-size: 26px;}
+    .btm{ margin-right: 15%;
+          font-size: 90%;  }
+          
+          
+     #logo:hover  {
+ 
+    background: #DE8A35;
+}
+          
+          
+}
+
+@media (max-width: 660px) {
+    .HOME { margin-top: 7%; }
+    #SOCIAL { font-size: 23px;}
+    #SOCIAL:hover{
+        background: #494949;
+        opacity: 0.8;
+        font-size: 23px;
+        color:#DE8A35;
+    }
+    
+}
+
+@media (max-width: 545px) {
+    .HOME { margin-top: 10%; }
+    #SOCIAL { font-size: 23px;}
+    #SOCIAL:hover{
+        background: #494949;
+        opacity: 0.8;
+        font-size: 23px;
+        color:#DE8A35;
+    }
+}
+
+@media (max-width: 455px) {
+    .CAROUSEL {
+      display: none;
+      
+    }
+    
+    .container-fluid {
+        margin-bottom: 2%;
+    }
+    .btm {
+        margin-right: 15%;
+        font-size: 90%;       
+    }
+     .HOME { height: 280px; margin-top:12%;}
+    .First_part h1 {font-size: 24px;}
+    #SOCIAL { font-size: 20px;}
+    #SOCIAL:hover{
+        background: #494949;
+        opacity: 0.8;
+        font-size: 20px;
+        color:#DE8A35;
+    }
+}
+
+
+@media (max-width: 400px) {
+ #myNavbar {padding-left: 1%; padding-right: 0px;}
+    #SOCIAL { font-size: 20px;}
+    #SOCIAL:hover{
+        background: #494949;
+        opacity: 0.8;
+        font-size: 20px;
+        color:#DE8A35;
+    }
+}
+
+
+@media (max-width: 390px) {
+    .HOME { height: 280px; margin-top:16%;}
+    .First_part h1 {font-size: 24px;}
+    #SOCIAL { font-size: 20px;}
+    #SOCIAL:hover{
+        background: #494949;
+        opacity: 0.8;
+        font-size: 20px;
+        color:#DE8A35;
+    }
+}
+
+@media (max-width: 342px) {
+    .SOCIAL_ICONS {width: 35%; }
+}
+
+@media (max-width: 322px) {
+    .HOME { height: 230px; margin-top:16%;}
+    .First_part h1 {font-size: 22px;}
+    .btm {
+        margin-right: 12%;
+        font-size: 85%;       
+    }
+    #myNavbar {padding-left: 6%; padding-right: 6%; padding-top:1%; }
+    .navbar #logo {padding: 8%;}
+    #SOCIAL { font-size: 16px;}
+    #SOCIAL:hover{
+        background: #494949;
+        opacity: 0.8;
+        font-size: 16px;
+        color:#DE8A35;
+    }
+    
+    
+}
+
+
+
+
